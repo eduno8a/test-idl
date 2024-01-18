@@ -1,0 +1,52 @@
+.separatorTB10{
+  width: 100%;
+  padding: 10px 0px;
+}
+.separatorTB20 {
+  width: 100%;
+  padding: 20px 0px;
+}
+.btn1{
+  background: rgba($color: $black, $alpha: .9);
+  color: $main;
+  padding: 10px 40px;
+  color: white;
+  border-radius: 5px;
+  &:hover{
+    color: $white;
+    cursor: pointer;
+    background: rgba($color: $black, $alpha: 1.0);
+    
+  }
+  &:disabled{
+    color: gray;
+    background: rgba($color: $black, $alpha: .5);
+  } 
+}
+.title1{
+  font-weight: 700;
+  font-size: 30px;
+}
+.subTitle1 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.subTitle2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: $main;
+}
+.text1{
+  font-weight: 400;
+  font-size: 16px;
+}
+.textAlignC{
+  text-align: center;
+}
+
+.content_main {
+  margin-left: 200px;
+  padding: 70px 16px 16px 16px;
+  background: $white;
+  min-height: 100vh;
+}
